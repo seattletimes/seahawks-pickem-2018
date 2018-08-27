@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= json.project.title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <%= t.include("partials/_adHead.html") %>
+  </head>
+
+  <body>
+    <div class="outer">
+      <%= t.include("partials/_ad.html", { type: "banner" }) %>
+
+      <nav class="top-bar">
+        <a class="logo" href="http://seattletimes.com">
+          <img src="assets/seattletimes.svg" />
+        </a>
+      </nav>
+
+      <div class="title"><span class="blue">Seahawks</span> <span class="green">Pick 'Em</span></div>
+      <div class="chatter">
+        Seattle Times sportswriters and a celebrity guesser predict the score before every Seahawks game.
+      </div>
+      <a class="share share-button"></a>
+
+      <table>
+        <thead>
+          <tr>
+            <th class="game">Schedule</th>
+            <th>Bob Condotta</th>
+            <th>Jayson Jenks</th>
+            <th>Larry Stone</th>
+            <th>Matt Calkins</th>
+            <th>Celebrity Guesser</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% json.SeahawksPickEm2018_2019_Data.forEach(function(row) { %>
+            <tr>
+              <td class="game">
+                <div class="week"><%=row.week%></div>
+                <div class="date"><%=row.date%></div>
+                <div class="time"><%=row.time%></div>
+                <div class="location"><%=row.location%></div>
+                <div class="final"><%=row.finalwinner%></div>
+                <div class="final"><%=row.finalloser%></div>
+                <div class="final">
+                  <% if (row.ot) { %> (OT)
+                  <% };%></div>
+              </td>
+              <td class="condotta">
+                <div class="prediction">
+                  <% if (row.condottaclosest) { %>
+                    <i class="fa fa-check-circle"></i>
+                  <% };%> <%=row.condottascore%>
+                </div>
+                <div class="commentary"><%=row.condottacommentary%></div>
+              </td>
+              <td class="jenks">
+                <div class="prediction">
+                  <% if (row.jenksclosest) { %>
+                    <i class="fa fa-check-circle"></i>
+                  <% };%> <%=row.jenksscore%>
+                </div>
+                <div class="commentary"><%=row.jenkscommentary%></div>
+              </td>
+              <td class="stone">
+                <div class="prediction">
+                  <% if (row.stoneclosest) { %>
+                    <i class="fa fa-check-circle"></i>
+                  <% };%> <%=row.stonescore%>
+                </div>
+                <div class="commentary"><%=row.stonecommentary%></div>
+              </td>
+              <td class="calkins">
+                <div class="prediction">
+                  <% if (row.calkinsclosest) { %>
+                    <i class="fa fa-check-circle"></i>
+                  <% };%> <%=row.calkinsscore%>
+                </div>
+                <div class="commentary"><%=row.calkinscommentary%></div>
+              </td>
+              <td class="celeb">
+                <div class="prediction">
+                  <% if (row.celebclosest) { %>
+                    <i class="fa fa-check-circle"></i>
+                  <% };%> <%=row.celebscore%>
+                </div>
+                <div class="commentary"><%=row.celebcommentary%></div>
+                <div class="celebrity divider"></div>
+                <div class="name"><%=row.celebname%></div>
+                <div class="bio"><%=row.celebbio%></div>
+
+                <% if (row.celeb2score) { %>
+                  <div class="celebrity dotted-divider"></div>
+                  <div class="prediction">
+                    <% if (row.celeb2closest) { %>
+                      <i class="fa fa-check-circle"></i>
+                    <% };%> <%=row.celeb2score%>
+                  </div>
+                  <div class="commentary"><%=row.celeb2commentary%></div>
+                  <div class="celebrity divider"></div>
+                  <div class="name"><%=row.celeb2name%></div>
+                  <div class="bio"><%=row.celeb2bio%></div>
+                <% };%>
+              </td>
+            </tr>
+          <% }); %>
+        </tbody>
+      </table>
+
+      <div class="bottom-ad"><%= t.include("partials/_ad.html", { type: "bannerBottom" }) %>
+      </div>
+
+    <div class="links">
+        <div class="links-header">More on Seahawks in The Seattle Times:</div>
+
+        <a href="http://www.seattletimes.com/sports/seahawks">Seahawks news</a> | <a href="http://www.seattletimes.com/author/bob-condotta">Bob Condotta</a> | <a href="http://www.seattletimes.com/author/jayson-jenks">Jayson Jenks</a> |
+        <a href="http://www.seattletimes.com/sports">Seattle Times Sports</a>
+      </div>
+      <div class="copyright">Copyright 2015 The Seattle Times</div>
+    </div>
+
+    <footer>
+      <a class="logo" href="http://seattletimes.com">
+        <img src="./assets/st-logo.png">
+      </a>
+      <a class="share share-bottom"></a>
+    </footer>
+
+    <script src="app.js"></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_adFoot.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

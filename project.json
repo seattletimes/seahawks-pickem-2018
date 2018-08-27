@@ -1,0 +1,21 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "projects-staging.seattletimes.com",
+      "path": ""
+    },
+    "live": {
+      "bucket": "",
+      "path": ""
+    }
+  },
+  "title": "Seahawks Pick 'Em 2018-2019",
+  "description": "Seattle Times sports writers and a celebrity guesser predict the score before every Seahawks game.",
+  "url": "http://projects.seattletimes.com/2018/sports/seahawks-pick-em/",
+  "slug": "",
+  "tags": ["football", "seahawks", "predictions", "seattle", "season"],
+  "image": "",
+  "production": false,
+  "embedded": false,
+  "sheets": ["1jF1_Dr2MQ-EoBANXUppe3BjHNi8-EY7C4kuRrITPt9Q"]
+}

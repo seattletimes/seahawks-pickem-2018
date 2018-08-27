@@ -1,0 +1,310 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@import "seattletimes";
+
+@block: Oswald;
+@blue: #002244;
+@green: #69BE28;
+
+.blue {
+  color: @blue;
+}
+.green {
+  color: @green;
+}
+
+body {
+  font-family: @df-sans;
+  color: @df-charcoal;
+  background: @df-light-gray;
+}
+
+.outer {
+  max-width: 1600px;
+  margin: auto;
+  padding: 10px;
+}
+
+.top-bar {
+  border-bottom: 1px solid @df-border-gray;
+
+  @media @mobile {
+    margin-top: -20px;
+  }
+
+  .logo {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    display: block;
+
+    img {
+      box-sizing: content-box;
+      height: 30px;
+      background: @df-light-gray;
+      padding: 10px;
+    }
+  }
+}
+
+.title {
+  padding-top: 25px;
+  padding-bottom: 5px;
+  font-family: @block;
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+
+  @media @mobile {
+    font-size: 35px;
+  }
+}
+
+.chatter {
+  text-align: center;
+
+  @media @mobile {
+    font-size: 17px;
+  }
+}
+
+.share-button {
+  margin: auto;
+  margin-top: 10px;
+
+  .entypo-export {
+    background: @df-border-gray !important;
+  }
+}
+
+table {
+  margin: auto;
+  margin-top: 30px;
+  border-collapse: collapse;
+  font-size: 18px;
+
+  @media @tablet {
+    border-bottom: 4px solid @df-middle-gray;
+  }
+
+  th, td {
+    padding: 15px;
+    width: 16%;
+  }
+
+  th {
+    font-family: @block;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: @green;
+    background: @blue;
+    border-right: 4px solid @blue;
+    padding: 9px;
+  }
+
+  td {
+    vertical-align: top;
+    border-right: 4px solid @df-middle-gray;
+    border-bottom: 1px dashed @df-middle-gray;
+    
+    &:last-child {
+      border-right: 0;
+    }
+
+    @media @tablet {
+      & {
+        border-bottom: none;
+        border-right: none;
+      }
+
+      &::before {
+        font-family: @block;
+        font-weight: bold;
+        color: @blue;
+      }
+
+      &.condotta::before {
+        content: "Bob Condotta";
+      }
+      &.jenks::before {
+        content: "Jayson Jenks";
+      }
+      &.stone::before {
+        content: "Larry Stone";
+      }
+      &.calkins::before {
+        content: "Matt Calkins";
+      }
+      &.celeb::before {
+        content: "Celebrity Guesser";
+      }
+    }
+  }
+
+  @media @tablet {
+    & { display: block }
+    tr, td {
+      display: block;
+      width: 100%;
+    }
+    th {
+      display: none;
+    }
+    td {
+      border-top: 1px dashed @df-middle-gray;
+    }
+  }
+}
+
+.fa-check-circle {
+  color: @green;
+}
+
+.game {
+  text-align: right;
+
+  @media @tablet {
+    text-align: left;
+    border-top: 4px solid @df-middle-gray;
+  }
+}
+.week {
+  font-family: @block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  color: @blue;
+  padding-bottom: 5px;
+}
+.date, .time {
+  font-weight: bold;
+
+  @media @tablet {
+    display: inline;
+  }
+}
+.location {
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+.final {
+  font-weight: bold;
+}
+.prediction {
+  font-weight: bold;
+  line-height: 30px;
+  color: @blue;
+
+  @media @tablet {
+    color: black;
+  }
+}
+.commentary {
+  font-family: @df-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+.name {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  color: @blue;
+}
+.bio {
+  text-align: center;
+  font-size: 14px;
+}
+.divider {
+  border-top: 1px solid @df-middle-gray;
+  padding-top: 20px;
+  margin: auto;
+  margin-top: 20px;
+  width: 50%;
+}
+
+.dotted-divider {
+  border-top: 1px dashed @df-middle-gray;
+  padding-top: 20px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.ad {
+  text-align: center;
+  margin-top: 10px;
+}
+.bottom-ad {
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+  @media @mobile {
+    display: none;
+  }
+}
+
+.links {
+  font-family: @df-sans;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+
+  @media @tablet {
+    padding-top: 20px;
+  }
+}
+
+.copyright {
+  font-family: @df-sans;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 300;
+  color: @df-dark-gray;
+  padding-bottom: 15px;
+
+  @media @tablet {
+    padding-bottom: 10px;
+  }
+}
+
+footer {
+  background: @blue;
+  opacity: 0.95;
+  padding: 8px;
+  position: relative;
+  z-index: 99;
+
+  .logo {
+    float: left;
+    margin-right: 10px; 
+    
+    img {
+      margin-top: 5px;
+      height: 20px;
+    }
+  }
+
+  &::after {
+    clear: both;
+    content: " ";
+    display: block;
+  }
+
+  .share-bottom {
+    float: right;
+
+    label {
+      background: @blue !important;
+      color: @df-off-white !important;
+    }
+  }
+}
