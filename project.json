@@ -6,12 +6,12 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": "/2018/sports/seahawks-weekly-pickem"
+      "path": "2018/sports/seahawks-weekly-pickem"
     }
   },
   "title": "Seahawks Pick 'Em 2018-2019",
   "description": "Seattle Times sports writers and a celebrity guesser predict the score before every Seahawks game.",
-  "url": "https://projects.seattletimes.com/2018/sports/seahawks-pick-em/",
+  "url": "https://projects.seattletimes.com/2018/sports/seahawks-weekly-pick-em/",
   "slug": "seahawks-weekly-pickem-2018",
   "tags": ["football", "seahawks", "predictions", "seattle", "season"],
   "image": "",
