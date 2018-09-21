@@ -1,38 +1,5 @@
 [
   {
-    "title": "Week 2",
-    "week": "Week 2",
-    "date": "Monday, Sept. 17",
-    "time": "5:15 p.m.",
-    "tv": "ESPN",
-    "location": "Chicago",
-    "finalwinner": "Seahawks",
-    "finalloser": "vs. Bears",
-    "ot": "",
-    "condottascore": "24-16 Bears",
-    "condottacommentary": "I picked the Seahawks last week thinking the edge at quarterback would override any of the advantages Denver might have. But all the injuries to key guys as well as a second straight road game with a young team still finding its way — and in a tough venue on a Monday night — seems like a lot to overcome.",
-    "condottaclosest": "",
-    "vorelscore": "24-23 Bears",
-    "vorelcommentary": "The Seahawks struggled to stop the run late in last weekend’s loss at Denver, while the Bears racked up 139 rushing yards and 5.1 yards per carry in their season-opening loss to Green Bay. Now add the fact that defensive end Von Miller produced three of Denver’s six sacks last weekend, and Chicago touts an equally destructive pass-rusher in Khalil Mack. If Seattle can’t establish the run (and stop the run) Pete Carroll’s team will fall to 0-2 for the first time since 2015.",
-    "vorelclosest": "",
-    "stonescore": "20-17 Seahawks",
-    "stonecommentary": "The Seahawks had their coming-out game under Russell Wilson at Soldier Field in 2012, and they’ll eke out a much-needed win there this year. But they’ll have to figure out a way to stop Khalil Mack better than they did Von Miller.",
-    "stoneclosest": "",
-    "calkinsscore": "14-10 Bears",
-    "calkinscommentary": "I’d have picked the Seahawks during the preseason but the addition of Khalil Mack for Chicago makes it different. He’s a game-changer, and in this case a prediction-changer, as he’ll wreak havoc on an already tenuous Seattle offense.",
-    "calkinsclosest": "",
-    "celebscore": "21-14 Seahawks",
-    "celebcommentary": "Chicago defense looks really, really good, but the offense is struggling a little bit. I think our quarterback is missing his cues a little bit. With the Seahawks, I've always been a little concerned about their O-line. The game is in Chicago, but I'm going to roll with the Seahawks. I'll say 21-14.",
-    "celebname": "Jewell Loyd",
-    "celebbio": "A native of Lincolnwood, Ill., Loyd just helped the Seattle Storm win the 2018 WNBA championship.",
-    "celebclosest": "",
-    "celeb2score": "",
-    "celeb2commentary": "",
-    "celeb2name": "",
-    "celeb2bio": "",
-    "celeb2closest": ""
-  },
-  {
     "title": "Week 3",
     "week": "Week 3",
     "date": "Sunday, Sept. 23",
@@ -42,28 +9,23 @@
     "finalwinner": "Seahawks",
     "finalloser": "vs. Cowboys",
     "ot": "",
-    "condottascore": "",
-    "condottacommentary": "",
+    "condottascore": "23-20 Seahawks",
+    "condottacommentary": "The Seahawks are in true desperation mode as they play their home opener. Dallas' defense is statistically one of the best in the NFL through two games so there could be some ugly moments for the offense. But the thought here is that Seattle can win this game with defense (Dallas' passing attack has been anemic so far) and special teams (maybe a Michael Dickson punt or two that flips the field) and keep hope alive for another week.",
     "condottaclosest": "",
-    "vorelscore": "",
-    "vorelcommentary": "",
+    "vorelscore": "21-20 Seahawks",
+    "vorelcommentary": "Bobby Wagner is back and the Seahawks are finally returning to CenturyLink Field. But is that enough for Seattle to secure its first victory of the season? I think the defense will gain some confidence against a one-dimensional Cowboys attack with a very limited passing game, and Russell Wilson will respond after stumbling in the loss at Chicago last week. Dallas' defense is formidable, but the Seahawks will do just enough to win the game.",
     "vorelclosest": "",
-    "stonescore": "",
-    "stonecommentary": "",
+    "stonescore": "27-20 Seahawks",
+    "stonecommentary": "The Seahawks return home, they get Bobby Wagner and others back off injury, and they will – or at least should – play with the urgency of knowing their season is essentially on the line. Put it together, and it adds up to a vital victory.",
     "stoneclosest": "",
-    "calkinsscore": "",
-    "calkinscommentary": "",
+    "calkinsscore": "13-10 Seahawks",
+    "calkinscommentary": "Bobby Wagner and K.J. Wright returning would provide a much-needed boost for Seattle's defense, but this team just hasn't showed enough offensively through two games to convince me they can win. Expect Dallas to come out on top in a close one.",
     "calkinsclosest": "",
-    "celebscore": "",
-    "celebcommentary": "",
-    "celebname": "",
-    "celebbio": "",
-    "celebclosest": "",
-    "celeb2score": "",
-    "celeb2commentary": "",
-    "celeb2name": "",
-    "celeb2bio": "",
-    "celeb2closest": ""
+    "celebscore": "24-21 Seahawks",
+    "celebcommentary": "It’s going to be a battle between two of the more mobile QBs in the league. Let’s hope our D-line can find some momentum and be quick to put the pressure on Dak Prescott to force some early turnovers.",
+    "celebname": "Jeremy Taiwo",
+    "celebbio": "2016 Olympian, Team USA and UW decathlete, Renton native",
+    "celebclosest": ""
   },
   {
     "title": "Week 4",
@@ -91,12 +53,7 @@
     "celebcommentary": "",
     "celebname": "",
     "celebbio": "",
-    "celebclosest": "",
-    "celeb2score": "",
-    "celeb2commentary": "",
-    "celeb2name": "",
-    "celeb2bio": "",
-    "celeb2closest": ""
+    "celebclosest": ""
   },
   {
     "title": "Week 5",
@@ -124,12 +81,7 @@
     "celebcommentary": "",
     "celebname": "",
     "celebbio": "",
-    "celebclosest": "",
-    "celeb2score": "",
-    "celeb2commentary": "",
-    "celeb2name": "",
-    "celeb2bio": "",
-    "celeb2closest": ""
+    "celebclosest": ""
   },
   {
     "title": "Week 6",
@@ -157,12 +109,7 @@
     "celebcommentary": "",
     "celebname": "",
     "celebbio": "",
-    "celebclosest": "",
-    "celeb2score": "",
-    "celeb2commentary": "",
-    "celeb2name": "",
-    "celeb2bio": "",
-    "celeb2closest": ""
+    "celebclosest": ""
   },
   {
     "title": "Week 8",
@@ -190,12 +137,7 @@
     "celebcommentary": "",
     "celebname": "",
     "celebbio": "",
-    "celebclosest": "",
-    "celeb2score": "",
-    "celeb2commentary": "",
-    "celeb2name": "",
-    "celeb2bio": "",
-    "celeb2closest": ""
+    "celebclosest": ""
   },
   {
     "title": "Week 9",
@@ -223,12 +165,7 @@
     "celebcommentary": "",
     "celebname": "",
     "celebbio": "",
-    "celebclosest": "",
-    "celeb2score": "",
-    "celeb2commentary": "",
-    "celeb2name": "",
-    "celeb2bio": "",
-    "celeb2closest": ""
+    "celebclosest": ""
   },
   {
     "title": "Week 10",
@@ -256,12 +193,7 @@
     "celebcommentary": "",
     "celebname": "",
     "celebbio": "",
-    "celebclosest": "",
-    "celeb2score": "",
-    "celeb2commentary": "",
-    "celeb2name": "",
-    "celeb2bio": "",
-    "celeb2closest": ""
+    "celebclosest": ""
   },
   {
     "title": "Week 11",
@@ -289,12 +221,7 @@
     "celebcommentary": "",
     "celebname": "",
     "celebbio": "",
-    "celebclosest": "",
-    "celeb2score": "",
-    "celeb2commentary": "",
-    "celeb2name": "",
-    "celeb2bio": "",
-    "celeb2closest": ""
+    "celebclosest": ""
   },
   {
     "title": "Week 12",
@@ -322,12 +249,7 @@
     "celebcommentary": "",
     "celebname": "",
     "celebbio": "",
-    "celebclosest": "",
-    "celeb2score": "",
-    "celeb2commentary": "",
-    "celeb2name": "",
-    "celeb2bio": "",
-    "celeb2closest": ""
+    "celebclosest": ""
   },
   {
     "title": "Week 13",
@@ -355,12 +277,7 @@
     "celebcommentary": "",
     "celebname": "",
     "celebbio": "",
-    "celebclosest": "",
-    "celeb2score": "",
-    "celeb2commentary": "",
-    "celeb2name": "",
-    "celeb2bio": "",
-    "celeb2closest": ""
+    "celebclosest": ""
   },
   {
     "title": "Week 14",
@@ -388,12 +305,7 @@
     "celebcommentary": "",
     "celebname": "",
     "celebbio": "",
-    "celebclosest": "",
-    "celeb2score": "",
-    "celeb2commentary": "",
-    "celeb2name": "",
-    "celeb2bio": "",
-    "celeb2closest": ""
+    "celebclosest": ""
   },
   {
     "title": "Week 15",
@@ -421,12 +333,7 @@
     "celebcommentary": "",
     "celebname": "",
     "celebbio": "",
-    "celebclosest": "",
-    "celeb2score": "",
-    "celeb2commentary": "",
-    "celeb2name": "",
-    "celeb2bio": "",
-    "celeb2closest": ""
+    "celebclosest": ""
   },
   {
     "title": "Week 16",
@@ -454,12 +361,7 @@
     "celebcommentary": "",
     "celebname": "",
     "celebbio": "",
-    "celebclosest": "",
-    "celeb2score": "",
-    "celeb2commentary": "",
-    "celeb2name": "",
-    "celeb2bio": "",
-    "celeb2closest": ""
+    "celebclosest": ""
   },
   {
     "title": "Week 17",
@@ -487,12 +389,7 @@
     "celebcommentary": "",
     "celebname": "",
     "celebbio": "",
-    "celebclosest": "",
-    "celeb2score": "",
-    "celeb2commentary": "",
-    "celeb2name": "",
-    "celeb2bio": "",
-    "celeb2closest": ""
+    "celebclosest": ""
   },
   {
     "title": "Week 1",
@@ -520,11 +417,34 @@
     "celebcommentary": "I’m kinda outta the loop. That’s my guestimation, just because of the Seahawks’ history with Russell Wilson’s firepower, he’s normally able to put out 24-30 points a game, I’m interested to see how they do this season. Also for Denver, they’re struggling and rebuilding and I feel like they won’t be able to pull it off.",
     "celebname": "Edouardo Jordan",
     "celebbio": "James Beard-award winning chef and owner of JuneBaby and Salare",
-    "celebclosest": "",
-    "celeb2score": "",
-    "celeb2commentary": "",
-    "celeb2name": "",
-    "celeb2bio": "",
-    "celeb2closest": ""
+    "celebclosest": ""
+  },
+  {
+    "title": "Week 2",
+    "week": "Week 2",
+    "date": "Monday, Sept. 17",
+    "time": "5:15 p.m.",
+    "tv": "ESPN",
+    "location": "Chicago",
+    "finalwinner": "Bears 24",
+    "finalloser": "Seahawks 17",
+    "ot": "",
+    "condottascore": "24-16 Bears",
+    "condottacommentary": "I picked the Seahawks last week thinking the edge at quarterback would override any of the advantages Denver might have. But all the injuries to key guys as well as a second straight road game with a young team still finding its way — and in a tough venue on a Monday night — seems like a lot to overcome.",
+    "condottaclosest": "x",
+    "vorelscore": "24-23 Bears",
+    "vorelcommentary": "The Seahawks struggled to stop the run late in last weekend’s loss at Denver, while the Bears racked up 139 rushing yards and 5.1 yards per carry in their season-opening loss to Green Bay. Now add the fact that defensive end Von Miller produced three of Denver’s six sacks last weekend, and Chicago touts an equally destructive pass-rusher in Khalil Mack. If Seattle can’t establish the run (and stop the run) Pete Carroll’s team will fall to 0-2 for the first time since 2015.",
+    "vorelclosest": "",
+    "stonescore": "20-17 Seahawks",
+    "stonecommentary": "The Seahawks had their coming-out game under Russell Wilson at Soldier Field in 2012, and they’ll eke out a much-needed win there this year. But they’ll have to figure out a way to stop Khalil Mack better than they did Von Miller.",
+    "stoneclosest": "",
+    "calkinsscore": "14-10 Bears",
+    "calkinscommentary": "I’d have picked the Seahawks during the preseason but the addition of Khalil Mack for Chicago makes it different. He’s a game-changer, and in this case a prediction-changer, as he’ll wreak havoc on an already tenuous Seattle offense.",
+    "calkinsclosest": "",
+    "celebscore": "21-14 Seahawks",
+    "celebcommentary": "Chicago defense looks really, really good, but the offense is struggling a little bit. I think our quarterback is missing his cues a little bit. With the Seahawks, I've always been a little concerned about their O-line. The game is in Chicago, but I'm going to roll with the Seahawks. I'll say 21-14.",
+    "celebname": "Jewell Loyd",
+    "celebbio": "A native of Lincolnwood, Ill., Loyd just helped the Seattle Storm win the 2018 WNBA championship.",
+    "celebclosest": ""
   }
 ]
